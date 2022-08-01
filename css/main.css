@@ -370,6 +370,10 @@ img {
   background-color: #363740;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .aside__title-wrapper {
   margin-bottom: 27px;
   padding: 32px;
