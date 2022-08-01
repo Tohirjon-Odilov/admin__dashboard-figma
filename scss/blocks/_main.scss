@@ -168,6 +168,33 @@
 
 }
 
+@media only screen and (max-width: 500px) {
+    .site-aside{
+        min-width: 80px;
+        width: 80px;
+    }
+
+    .aside__title-wrapper{
+        padding: 23px;
+    }
+
+    .aside__item label{
+        padding: 20px;
+    }
+
+    .site-aside::after {
+        width: 250px;
+    }
+
+    .thidden{
+        margin-left: 60px;
+    }
+
+    .burger-wrapper{
+        width: 77px;
+    }
+}
+
 // ? Hero part start
 
 .hero-wrapper {
@@ -414,7 +441,16 @@ tbody tr td .color {
 
  @media only screen and (max-width: 500px) {
      .hero-wrapper{
-      width: 75%;
+      width: 80%;
+      left: 80px;
+     }
+
+     .hero{
+        padding: 0 10px;
+     }
+
+     .hero-search{
+        display: none;
      }
 
      .hero__avatar-name{
@@ -423,6 +459,7 @@ tbody tr td .color {
 
      .hero__table{
       max-width: 400px;
+      overflow: hidden;
      }
 
      .table-wrapper{
