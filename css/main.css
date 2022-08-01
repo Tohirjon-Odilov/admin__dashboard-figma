@@ -366,7 +366,7 @@ img {
 
 .site-aside {
   width: 255px;
-  min-height: 1060px;
+  min-height: 1062px;
   background-color: #363740;
 }
 
@@ -796,7 +796,13 @@ tbody tr td .color {
     overflow: hidden;
   }
   .table-wrapper {
+    overflow: auto;
     width: 350px;
+  }
+  .hero__table-header {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
   table {
     width: 930px;
