@@ -360,15 +360,14 @@ img {
 }
 
 .wrapper {
-  margin: 0 auto;
-  max-width: 1366px;
   overflow: hidden;
   position: relative;
 }
 
 .site-aside {
   width: 255px;
-  min-height: 1062px;
+  max-height: 655px;
+  overflow-y: auto;
   background-color: #363740;
 }
 
@@ -528,6 +527,7 @@ img {
   .site-aside {
     min-width: 80px;
     width: 80px;
+    z-index: 1;
   }
   .aside__title-wrapper {
     padding: 23px;
@@ -606,7 +606,9 @@ img {
 }
 
 .table-wrapper {
-  overflow: hidden;
+  max-height: 395px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 table {
@@ -755,10 +757,10 @@ tbody tr td .color {
   }
   .table-wrapper {
     overflow: auto;
-    width: 716px;
+    max-width: 716px;
   }
   table {
-    width: 930px;
+    max-width: 930px;
   }
 }
 @media only screen and (max-width: 768px) {
