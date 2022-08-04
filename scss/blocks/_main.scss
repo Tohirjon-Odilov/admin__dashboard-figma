@@ -20,7 +20,7 @@
 .aside__title-wrapper {
     margin-bottom: 27px;
     padding: 32px;
-    @include fl();
+    @include fl(flex-start);
 }
 
 .aside__title {
