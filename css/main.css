@@ -360,6 +360,7 @@ img {
 }
 
 .wrapper {
+  display: flex;
   overflow: hidden;
   position: relative;
 }
@@ -546,15 +547,13 @@ img {
   }
 }
 .hero-wrapper {
-  max-width: 1094px;
-  position: absolute;
-  top: 0;
+  width: 81%;
   left: 255px;
   overflow: hidden;
 }
 
 .hero {
-  padding: 0 33px 0 30px;
+  padding: 0 10px 0 30px;
 }
 
 .hero__header {
